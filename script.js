@@ -7,8 +7,8 @@ function setBodyBackground(imageUrl) {
 }
 
 function getWeather() {
-  const openWeatherApiKey = "1466f97ee70590a7699b4b063627278f";
-  const unsplashApiKey = "RlEAnYY_8mRWvB_xiloLsXAfSyCvmCnf-zqxTirkrRo";
+  const openWeatherApiKey = "1466f97ee170590a7699b4b063627278f";
+  const unsplashApiKey = "RlEAnYY_18mRWvB_xiloLsXAfSyCvmCnf-zqxTirkrRo";
   const city = document.getElementById("city").value;
   const openWeatherApiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${openWeatherApiKey}&units=metric&lang=pt`;
 
